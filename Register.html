@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Code Hub | Register for a class</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+    
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="#">
+        <img src="Images/icon.png" alt="The Code Hub Logo" width="30" height="30" class="d-inline-block align-top">
+        The Code Hub
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="lessons.html">Lessons</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="practice.html">Practice</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="flashcards.html">Flashcards</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="register.html">Register</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="FAQ.html">FAQ</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+    <div class="container mt-4">
+        <h1 class="text-center">Register for a Class</h1>
+        <p>We offer in-person courses to help you learn how to code by creating interesting projects.</p>
+        
+        <form action="mailto:hk9794@wayne.edu" method="POST" enctype="text/plain">
+            <fieldset>
+                <legend>Your Information</legend>
+                <input type="text" name="fullname" id="form-name" placeholder="Name">
+                <input type="text" name="customeradress" id="form-address" placeholder="Address">
+                <input type="text" name="customernumber" placeholder="Telephone Number">
+                <input type="text" name="customeremail" placeholder="Email">
+                <textarea name="instructions" rows="4" cols="60" maxlength="400" placeholder="Any questions (No more than 400 characters long)"></textarea>
+            </fieldset>
+
+            <h2>Design Your Coding Project</h2>
+
+            <fieldset>
+                <legend>Details</legend>
+
+                <fieldset>
+                    <legend>Language (Choose one)</legend>
+                    <label><input type="radio" name="language" value="Python"> Python</label>
+                    <label><input type="radio" name="language" value="Java"> Java</label>
+                    <label><input type="radio" name="language" value="C++"> C++</label>
+                    <label><input type="radio" name="language" value="Any"> Any</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Project you would be interested in</legend>
+                    <label><input type="checkbox" name="type" value="WebDev"> Web Dev: Create a portfolio</label>
+                    <label><input type="checkbox" name="type" value="MobileDev"> Mobile Dev: Fitness Tracker</label>
+                    <label><input type="checkbox" name="type" value="DataScience"> Data Science: Analysis of media consumption</label>
+                    <label><input type="checkbox" name="type" value="GameDev"> Game Dev: Puzzle Solving</label>
+                    <label><input type="checkbox" name="type" value="IoT"> IoT: Home automation System</label>
+                    <label><input type="checkbox" name="type" value="CompVision"> Computer Vision: Face Recognition</label>
+                </fieldset>
+
+                <fieldset>
+                    <legend>Number</legend>
+                    <p>How many courses would you like:</p>
+                    <select name="days" size="1">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                    </select>
+                </fieldset>
+            </fieldset>
+
+            <p>
+                <input type="submit" value="Sign me up!">
+                <input type="reset">
+            </p>
+        </form>
+    </div>
+    
+   
+</body>
+</html>

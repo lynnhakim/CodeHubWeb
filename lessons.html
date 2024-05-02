@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>The Code Hub | Lessons</title>
+    <!-- Link to Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <a class="navbar-brand" href="#">
+            <img src="Images/icon.png" alt="The Code Hub Logo" width="30" height="30" class="d-inline-block align-top">
+            The Code Hub
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="lessons.html">Lessons</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="practice.html">Practice</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="flashcards.html">Flashcards</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="register.html">Register</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="FAQ.html">FAQ</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="container mt-4">
+        <h1 class="text-center">The Code Hub C++ Lessons</h1>
+        <p class="text-center">Posted by Lynn, January 31, 2023</p>
+        <p>C++ is a <em>powerful</em> and <em>versatile</em> programming language. Known for its efficiency and object-oriented features, C++ facilitates both low-level memory manipulation and high-level abstraction.</p>
+
+        <div id="info">
+            <h2><strong>Variables / Assignments</strong></h2>
+            <ul>
+                <li>Data Types <span class="number"> 3 practice problems</span></li>
+                <ul><p>Discover the different data types that are used in C++ such as <em>Booleans, integers, strings, floats</em>, and others.</p></ul> 
+                <li>Operators <span class="number"> 2 practice problems</span></li>
+                <ul><p>Learn how operators are used to assign values to variables. They range from <em>arithmetic, relational, and logical.</em></p></ul>
+            </ul>
+        </div>
+
+        <div id="branches">
+            <h2><strong>Branches</strong></h2>
+            <ul>
+                <li>Conditional Statements <span class="number"> 2 practice problems</span></li>
+                <ul><p>Construct <em>if-else statements</em> to allow execution of specific code blocks based on Boolean expressions.</p></ul>
+                <li>Switch Statements <span class="number"> 1 practice problem</span></li>
+                <ul><p>A <em>concise</em> and <em>efficient</em> way to handle multiple cases. This enhances code <em>readability</em> in scenarios with multiple conditional paths.</p></ul>
+            </ul>
+        </div>
+
+        <div id="vectors">
+            <h2>Vectors</h2>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Declaration</th>
+                        <th>Description</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><code>vector&lt;int&gt; amounts;</code></td>
+                        <td>Declares <code>amounts</code> as an empty vector of ints.</td>
+                    </tr>
+                    <tr>
+                        <td><code>vector&lt;int&gt; scores(15);</code></td>
+                        <td>Declares <code>scores</code> as a vector of 15 ints.</td>
+                    </tr>
+                    <tr>
+                        <td><code>vector&lt;char&gt; letters(25, 'A');</code></td>
+                        <td>Declares <code>letters</code> as a vector of 25 characters. Each element is initialized with 'A'.</td>
+                    </tr>
+                    <tr>
+                        <td><code>vector&lt;double&gt; values2(values1);</code></td>
+                        <td>Declares <code>values2</code> as a vector of doubles. All the elements of <code>values1</code>, which is also a vector of doubles, are copied to <code>values2</code>.</td>
+                    </tr>
+                </tbody>
+            </table>
+            <p class="warning">*Number of practice problems is subject to change</p>
+        </div>
+    </div>
+
+
+</body>
+</html>
